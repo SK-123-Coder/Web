@@ -1,5 +1,122 @@
+
 *{
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
+    color: white;
+}
+
+/*tagName*/
+
+body{
+    background-image: url("C:/Main Drives/TEMP/richard-horvath-_nWaeTF6qo0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*Classes*/
+
+.headAncrs{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.fa-magnifying-glass,.fa-bars{
+    color: black;
+    font-size: 2.5em;
+}
+
+.fa-bars{
+    color: white;
+}
+
+/*boxs*/
+
+#navBar{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5px 40px;
+}
+
+#search_Links{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#searchBox{
+    height: 100%;
+    width: 50%;
+}
+
+#searchBoxFrom{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#moreIcon{
+    width: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#links{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#headUl{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/*elementsId*/
+
+#logoText{
+    font-size: 4em;
+    font-weight: 700;
+    background: url("https://images.unsplash.com/photo-1564951434112-64d74cc2a2d7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGFic3RyYWN0JTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D") no-repeat center;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+}
+
+#search{
+    height: 50%;
+    width: 90%;
+    border: none;
+    padding: 20px;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: black;
+    font-size: 2em;
+}
+
+#searchBtn{
+    height: 50%;
+    width: 10%;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(213, 213, 213);
 }
